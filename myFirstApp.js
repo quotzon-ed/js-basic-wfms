@@ -20,11 +20,10 @@ function myFirstApp(name, age) {
     // Задание: написать функцию, которая возвращает квадрат принимаемой переменной
     function calcPow(num) {
         // return Math.pow(num, 2)
-        return num*num;
+        return num * num;
     }
     showSkills();
     checkAge();
     console.log(calcPow(8));
 }
-
-myFirstApp('Денис',30);
+myFirstApp('Денис', 30);
